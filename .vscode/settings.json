@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "role": "accountadmin",
+                "schema": "dbt_bfarsang"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "warehouse": "transforming",
+            "database": "analytics",
+            "username": "farsangb",
+            "password": "Hiflylabs1_",
+            "account": "xg52914.switzerland-north.azure",
+            "name": "Snowflake"
+        }
+    ]
+}
